@@ -3,7 +3,7 @@ const Blog = (props) => {
     const { blog: blog } = props;
 
     return (
-        <div>
+        <div> 
             <h2>{blog.title}</h2>
             <p>{blog.text}</p>
         </div>
